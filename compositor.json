@@ -1,0 +1,85 @@
+{
+  "name": "bryanchappell/Software-is-People",
+  "version": "0.1.4",
+  "libraries": {
+    "xv": "^1.1.25"
+  },
+  "title": "Software is People",
+  "branch": "master",
+  "style": {
+    "name": "Material",
+    "componentSet": {
+      "nav": "nav/DarkAbsoluteNav",
+      "header": "header/GradientHeader",
+      "article": "article/BasicArticle",
+      "footer": "footer/BasicFooter"
+    },
+    "fontFamily": "Roboto, sans-serif",
+    "heading": {
+      "fontWeight": 500,
+      "letterSpacing": "-0.01em"
+    },
+    "colors": {
+      "text": "#212121",
+      "background": "#fff",
+      "primary": "#2196f3",
+      "secondary": "#1565c0",
+      "highlight": "#ff4081",
+      "border": "#e0e0e0",
+      "muted": "#f5f5f5"
+    },
+    "layout": {
+      "centered": true,
+      "bannerHeight": "80vh",
+      "maxWidth": 896
+    }
+  },
+  "content": [
+    {
+      "component": "nav",
+      "links": [
+        {
+          "href": "https://github.com/bryanchappell/Software-is-People",
+          "text": "GitHub"
+        }
+      ]
+    },
+    {
+      "component": "header",
+      "heading": "Software-is-People",
+      "subhead": null,
+      "children": [
+        {
+          "component": "ui/TweetButton",
+          "text": "Software-is-People: ",
+          "url": null
+        },
+        {
+          "component": "ui/GithubButton",
+          "user": "bryanchappell",
+          "repo": "Software-is-People"
+        }
+      ]
+    },
+    {
+      "component": "article",
+      "metadata": {
+        "source": "github.readme"
+      },
+      "html": "\n<h1>//project name//</h1>\n<h2>Overview</h2>\n<h2>Problem Statement</h2>\n<h2>Purpose</h2>\n<h2>Design</h2>\n<h2>Documentation</h2>\n<p>See Docs</p>\n<h2>Development Setup</h2>\n<p>sh\ngit clone git@github.com/lincsIO/---\ncd ---\nnpm install\nnpm run dev</p>\n<p>Admin Login Information</p>\n<h2>Browser Requirements</h2>\n<ul>\n<li>Chrome (latest)</li>\n<li>Firefox (latest)</li>\n<li>IE 10+</li>\n<li>Microsoft Edge</li>\n<li>Safari (latest)</li>\n<li>Android 4.4+</li>\n<li>iPhone 6+</li>\n</ul>\n<h2>Technical Stack</h2>\n<h2>Team Roles and Responsibilities</h2>\n<p>Name | Contact | Role | Responsibilities\n-----|-------|---------|&#x2014;&#x2014;&#x2014;&#x2014;&#x2014;&#x2014;&#x2014;&#x2014;&#x2014;&#x2014;\n&amp;&amp; | &amp;&amp; | &amp;&amp; | &amp;&amp;</p>\n<h2>Greenfield SDLC (Software Development LifeCycle)</h2>\n<ul>\n<li>Sprint duration every 2 weeks</li>\n</ul>\n<h3>Cycle</h3>\n<p>Description of sprint cycle</p>\n<table>\n<thead>\n<tr>\n<th>Day</th>\n<th>Task</th>\n<th>Description</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>1</td>\n<td>Planning and Estimation</td>\n<td>On day one the developers and project manager convine to discuss the planning and estimation and agree on deliverables for this sprint.</td>\n</tr>\n<tr>\n<td>2, 3, 4, 5</td>\n<td>Core Development</td>\n<td>These days in the cycle are focused on core development of the estimated features, a stand up is held each day to report progress and any stop gaps</td>\n</tr>\n<tr>\n<td>5, 6, 7</td>\n<td>Review, Unit Tests and Refinements</td>\n<td>These dev days are to complete all code reviews, unit tests and any refinements to the given core features</td>\n</tr>\n<tr>\n<td>8</td>\n<td>Acceptance Testing</td>\n<td>This day should be used to review with the product owner all delivered features and get each feature accepted and delivered</td>\n</tr>\n<tr>\n<td>9</td>\n<td>Patches, Alterations, Integration Testing</td>\n<td>On day 9 the team should address any patches or alterations to the provided featurs and focus to get re-accepted and delivered if possible.</td>\n</tr>\n<tr>\n<td>10</td>\n<td>Ship and Retrospective</td>\n<td>Ship all accepted code and hold a retrospective on how the sprint went, what can be improved, what can be removed from the process etc</td>\n</tr>\n</tbody>\n</table>\n<h3>Sprints</h3>\n<table>\n<thead>\n<tr>\n<th>Sprint</th>\n<th>Goals</th>\n<th>Retrospective</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>1</td>\n<td>&amp;&amp;</td>\n</tr>\n<tr>\n<td>2</td>\n<td>&amp;&amp;</td>\n</tr>\n<tr>\n<td>3</td>\n<td>&amp;&amp;</td>\n</tr>\n<tr>\n<td>4</td>\n<td>&amp;&amp;</td>\n</tr>\n<tr>\n<td>5</td>\n<td>&amp;&amp;</td>\n</tr>\n</tbody>\n</table>\n<h3>Application Roles</h3>\n<h3>Core Modules / Features</h3>\n<h3>Email Services</h3>\n<h3>Testing</h3>\n<h3>App Url</h3>\n<h3>Architecture</h3>\n<p><em>Backend Development\n</em>Front End Development</p>\n<h3>User Stories</h3>\n<p>See GitHub Issues</p>\n<p>&quot;As a&quot;\n&quot;I want to&quot;\n&quot;So that&quot;</p>\n<h3>Licensing</h3>\n"
+    },
+    {
+      "component": "footer",
+      "links": [
+        {
+          "href": "https://github.com/bryanchappell/Software-is-People",
+          "text": "GitHub"
+        },
+        {
+          "href": "https://github.com/bryanchappell",
+          "text": "bryanchappell"
+        }
+      ]
+    }
+  ]
+}
